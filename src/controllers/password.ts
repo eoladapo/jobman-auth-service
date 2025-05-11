@@ -62,7 +62,7 @@ export async function resetPassword(req: Request, res: Response): Promise<void> 
     throw new BadRequestError(error.details[0].message, 'ResetPassword update() method error');
   }
 
-  const { password, confirmPassword } = req.body();
+  const { password, confirmPassword } = req.body;
   const { token } = req.params;
   if (password !== confirmPassword) {
     throw new BadRequestError('Passwords do not match', 'ResetPassword update() method error');
