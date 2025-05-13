@@ -21,6 +21,7 @@
   "dependencies": {
     "@elastic/elasticsearch": "^9.0.1",
     "@eoladapo/jobman-shared": "^0.0.6",
+    "@faker-js/faker": "^9.7.0",
     "amqplib": "^0.10.7",
     "bcryptjs": "^3.0.2",
     "cloudinary": "^2.6.1",
@@ -38,6 +39,7 @@
     "sequelize": "^6.37.7",
     "typescript": "^5.8.3",
     "typescript-transform-paths": "^3.5.5",
+    "unique-username-generator": "^1.4.0",
     "uuid": "^11.1.0",
     "winston": "^3.17.0"
   },
