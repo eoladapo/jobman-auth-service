@@ -53,7 +53,7 @@ export async function gigsSearch(
     size,
     query: {
       bool: {
-        must: queryList
+        must: [...queryList]
       }
     },
     sort: [
